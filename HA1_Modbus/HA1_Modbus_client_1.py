@@ -121,7 +121,7 @@ def main():
     # ─────────────────────────────────────────────
 
     # Create a TCP client to local server (default port 501)
-    client = ModbusTcpClient("127.0.0.1", port=1502)
+    client = ModbusTcpClient("127.0.0.1", port=502)
 
     # Try connecting
     connection = client.connect()
